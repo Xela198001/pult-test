@@ -1,0 +1,38 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+
+.wrp {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content-title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.content-text {
+  font-size: 16px;
+  color: #eee;
+}
+
+.content-img {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+.content-link:hover {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1024px){
+  .wrp {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
